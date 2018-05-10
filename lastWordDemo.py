@@ -5,4 +5,13 @@
 file = open('fileDemo.py')
 
 for line in file:
-    print(line.strip())
+    words = line.split()
+    if len(words) > 0:
+        print(words[-1])
+    else:
+        print()
+
+
+"""
+line.strip('\n') #keep indents
+"""
