@@ -8,4 +8,3 @@ numWords = 0
 for line in file:
     if 'zz' in line:
         print(line.strip())
-    numWords += 1
