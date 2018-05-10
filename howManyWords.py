@@ -4,6 +4,11 @@
 
 file = open('engmix.txt')
 
-many = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+many = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 
+for line in file:
+    many[len(line)] += 1
+print(many)
 
+for item in many:
+    print(+=1 '-letter words: 'many)
