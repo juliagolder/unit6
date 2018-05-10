@@ -12,4 +12,4 @@ print(many)
 
 
 for item in many:
-    print(+=1, '-letter words: ', many)
+    print([0]+=1'-letter words: ', many)
