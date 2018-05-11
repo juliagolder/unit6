@@ -9,3 +9,6 @@ for line in file:
     line = line.strip()
     if len(line) > 0 and line[0]=='j' and line[-1]=='g':
         print(line)
+     numWords += 1
+    
+print(numWords)
