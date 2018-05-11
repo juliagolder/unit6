@@ -11,5 +11,5 @@ for line in file:
 print(many)
 
 
-for i in range:
-    print(i'- letter words: ' )
+for i in range(1,23):
+    print(i,'- letter words: ', many[i-1])
