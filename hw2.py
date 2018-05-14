@@ -4,7 +4,11 @@
 
 file = open('engmix.txt')
 
-number = int(input('What number word would you like to search for?')
+number = int(input('What number word would you like to search for?'))
+
+L = []
 
 for line in file:
-    if number in line.strip():
+    L.append(line.strip())
+
+print(L[number-1])
