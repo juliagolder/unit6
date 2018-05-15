@@ -10,8 +10,8 @@ most = 0
 LETTERword = ''
 
 for item in file:
-    if most < (LETTERword.count):
-        most = (LETTERword.count)
+    if most < (item.count(letter)):
+        most = (item.count(letter))
         LETTERword = item
 
 print(LETTERword)
