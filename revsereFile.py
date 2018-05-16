@@ -4,11 +4,11 @@
 
 THEfile = input('What file would you like to reverse?')
 
-file = open('THEfile')
+file = open(THEfile)
 
 L = []
 
 for line in file:
-    L.append(line.reverse())
-
-print(L[number-1])
+    L.append(line.strip())
+L.reverse()
+print(L)
