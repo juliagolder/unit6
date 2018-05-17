@@ -12,5 +12,5 @@ for line in file:
     for ch in line:
         back = ch+back
 
-    if back == ch:
+    if back == line:
         print(back)
