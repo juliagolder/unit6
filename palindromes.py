@@ -4,10 +4,13 @@
 
 file = open('engmix.txt')
 
-back = ''
+for line in file:
+    line = line.strip()
 
-for ch in file:
-    back = ch+back
+    back = ''
 
-if back == ch:
-    print(back)
+    for ch in line:
+        back = ch+back
+
+    if back == ch:
+        print(back)
