@@ -8,3 +8,6 @@ back = ''
 
 for ch in file:
     back = ch+back
+
+if back == ch:
+    print(back)
