@@ -11,4 +11,6 @@ L = []
 for line in file:
     L.append(line.strip())
 L.reverse()
-print(L)
+
+for item in L:
+    print(item)
