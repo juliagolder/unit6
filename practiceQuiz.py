@@ -8,7 +8,7 @@ file = open('engmix.txt')
 for line in file:
     word = line.strip()
     Clet = word.count('c')
-    Plet = word.count('p')
+    Plet = word.count('p') #maybe need int
     if Clet == 3 and Plet == 2:
         print(word)
     
