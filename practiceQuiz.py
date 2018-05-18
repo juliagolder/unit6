@@ -4,9 +4,9 @@
 
 file = open('engmix.txt')
 
-
-
+numWords = 0
 for line in file:
-    line = line.strip()
-    if line[0]=='r' in line:
-        print(line)
+    if len(line) > 0 and line[0]=='r':
+        numWords += 1
+    
+print(numWords)
