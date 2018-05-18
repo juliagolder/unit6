@@ -23,4 +23,3 @@ for line in file:
         numWords += 1
     
 print(numWords)
-
