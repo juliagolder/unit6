@@ -3,6 +3,11 @@
 #practiceQuiz.py
 
 #1 find all word in dic. that have exactly 3 c's and 2 p's
+file = open('engmix.txt')
+
+for line in file:
+    line.strip()
+    
 
 #2 - how many words start with the letter r. and aware of blank line in dictionary
 file = open('engmix.txt')
@@ -13,3 +18,4 @@ for line in file:
         numWords += 1
     
 print(numWords)
+
