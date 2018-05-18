@@ -6,7 +6,12 @@
 file = open('engmix.txt')
 
 for line in file:
-    line.strip()
+    word = line.strip()
+    Clet = word.count('c')
+    Plet = word.count('p')
+    if Clet == 3 and Plet == 2:
+        print(word)
+    
     
 
 #2 - how many words start with the letter r. and aware of blank line in dictionary
