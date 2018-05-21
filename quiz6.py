@@ -12,7 +12,7 @@ for line in file:
     number = word.count(letter)
     if number == 4:
         print(word)
-"""
+
 
 file = open('engmix.txt')
 
@@ -20,7 +20,16 @@ for line in file:
     line = line.strip()
     if line[0]==line[4]==line[8]:
         print(line)
+"""
+
 
 file = open('engmix.txt')
 
 letter = input('What letter would you like to search for?')
+number = input('How long do you want your word to be?')
+
+
+for line in file:
+    line = line.strip()
+    if len(line) == number and line[0]== letter:
+        print(line)
