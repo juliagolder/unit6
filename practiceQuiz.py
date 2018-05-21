@@ -34,18 +34,8 @@ for line in file:
     if len(line) == number and line[0]==letter:
         print(line)
 
-"""
-file = open('engmix.txt')
 
-
-
-
-for line in file:
-    line = line.strip()
-    if len(line)==number and line[0]==letter:
-        print(line)
-
-
+#program4
 file = open('engmix.txt')
 
 number = 8000
@@ -53,7 +43,5 @@ number = 8000
 L = []
 
 for line in file:
-    if len(line) = 10
-        print(L[number-1])
-
-"""
+    if len(line) == 10
+        print(L)
