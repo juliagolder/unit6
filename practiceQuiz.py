@@ -1,25 +1,69 @@
 #juliagolder
-#5/18/18
-#practiceQuiz.py
+#5/21/18
+#quiz5.py
 
-#1 find all word in dic. that have exactly 3 c's and 2 p's
+"""
 file = open('engmix.txt')
+
+letter = input('What letter would you like to search for?')
 
 for line in file:
     word = line.strip()
-    Clet = word.count('c')
-    Plet = word.count('p') #maybe need int
-    if Clet == 3 and Plet == 2:
+    number = word.count(letter)
+    if number == 4:
         print(word)
-    
-    
 
-#2 - how many words start with the letter r. and aware of blank line in dictionary
+
 file = open('engmix.txt')
 
-numWords = 0
+letter = 'd'
+
 for line in file:
-    if len(line) > 0 and line[0]=='r':
-        numWords += 1
-    
-print(numWords)
+    line = line.strip()
+    if line[0] == letter and line[4] == letter and line[8] == letter:
+        print(line)
+"""
+
+file = open('engmix.txt')
+
+letter = input('What letter would you like to search for?')
+number = int(input('How long do you want your word to be?'))
+
+for line in file:
+    if len(line) == number and line[0]==letter:
+        print(line)
+
+"""
+file = open('engmix.txt')
+
+
+
+
+for line in file:
+    line = line.strip()
+    if len(line)==number and line[0]==letter:
+        print(line)
+
+
+file = open('engmix.txt')
+
+many = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+
+for line in file:
+    many[len(line)] += 1
+print(many)
+
+
+file = open('engmix.txt')
+
+number = 8000
+
+L = []
+
+for line in file:
+    if
+    L.append(line.strip())
+
+print(L[number-1])
+
+"""
