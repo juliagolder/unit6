@@ -21,4 +21,6 @@ for line in file:
     if line[0]==line[4]==line[8]:
         print(line)
 
+file = open('engmix.txt')
 
+letter = input('What letter would you like to search for?')
