@@ -1,7 +1,7 @@
 #juliagolder
 #5/21/18
-#quiz5.py
-"""
+#quiz6.py
+
 #program1
 file = open('engmix.txt')
 
@@ -22,7 +22,7 @@ for line in file:
     line = line.strip()
     if line[0] == letter and line[4] == letter and line[8] == letter:
         print(line)
-"""
+
 
 #program3
 file = open('engmix.txt')
