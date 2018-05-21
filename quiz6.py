@@ -20,7 +20,7 @@ for line in file:
     line = line.strip()
     if line[0]==line[4]==line[8]:
         print(line)
-"""
+
 
 
 file = open('engmix.txt')
@@ -33,3 +33,13 @@ for line in file:
     line = line.strip()
     if len(line) == number and line[0]== letter:
         print(line)
+"""
+
+file = open('engmix.txt')
+
+many = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+
+for line in file:
+    many[len(line)] += 1
+print(many)
+
