@@ -16,11 +16,11 @@ for line in file:
 
 file = open('engmix.txt')
 
-letter = 'b'
+letter = 'd'
 
 for line in file:
     line = line.strip()
-    if line[0] == letter and line[4] == letter and line[8]== letter:
+    if line[0] == letter and line[4] == letter and line[8] == letter:
         print(line)
 
 """
@@ -43,4 +43,18 @@ many = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 for line in file:
     many[len(line)] += 1
 print(many)
+
+
+file = open('engmix.txt')
+
+number = 8000
+
+L = []
+
+for line in file:
+    if
+    L.append(line.strip())
+
+print(L[number-1])
+
 """
