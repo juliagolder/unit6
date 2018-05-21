@@ -30,7 +30,7 @@ number = input('How long do you want your word to be?')
 
 for line in file:
     line = line.strip()
-    if len(line) == number and line[0]== letter:
+    if len(line)==number and line[0]==letter:
         print(line)
 
 """
